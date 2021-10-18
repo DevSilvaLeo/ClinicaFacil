@@ -6295,11 +6295,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Fabrica\\Projeto.Clinica\\Adapters.Api\\Adapters.Api.csproj",
+      "projectUniqueName": "F:\\Fabrica\\TheOne\\Workspace\\Adapters.Api\\Adapters.Api.csproj",
       "projectName": "Adapters.Api",
-      "projectPath": "F:\\Fabrica\\Projeto.Clinica\\Adapters.Api\\Adapters.Api.csproj",
+      "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Adapters.Api\\Adapters.Api.csproj",
       "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-      "outputPath": "F:\\Fabrica\\Projeto.Clinica\\Adapters.Api\\obj\\",
+      "outputPath": "F:\\Fabrica\\TheOne\\Workspace\\Adapters.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6316,14 +6316,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Fabrica\\Projeto.Clinica\\Adapters.SqlServer\\Adapters.SqlServer.csproj": {
-              "projectPath": "F:\\Fabrica\\Projeto.Clinica\\Adapters.SqlServer\\Adapters.SqlServer.csproj"
+            "F:\\Fabrica\\TheOne\\Workspace\\Adapters.SqlServer\\Adapters.SqlServer.csproj": {
+              "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Adapters.SqlServer\\Adapters.SqlServer.csproj"
             },
-            "F:\\Fabrica\\Projeto.Clinica\\Clinica.Application\\Clinica.Application.csproj": {
-              "projectPath": "F:\\Fabrica\\Projeto.Clinica\\Clinica.Application\\Clinica.Application.csproj"
+            "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Application\\Clinica.Application.csproj": {
+              "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Application\\Clinica.Application.csproj"
             },
-            "F:\\Fabrica\\Projeto.Clinica\\Clinica.Domain\\Clinica.Domain.csproj": {
-              "projectPath": "F:\\Fabrica\\Projeto.Clinica\\Clinica.Domain\\Clinica.Domain.csproj"
+            "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj": {
+              "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj"
             }
           }
         }

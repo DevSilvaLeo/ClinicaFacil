@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nlRkhMZBVHLnejYNa5bGlZArM4XyqyWIXpivW/ATLa1pRNauLvUS5zRCntVBgWI2MdsD28sEjcixDXm01cJGSQ==",
+  "dgSpecHash": "1c4SSHSW7pZFNIAXwoQwh3Mcch57b4zBvv5pNXFbWQMCOZvoVhJk+lCsKO/0cKySNrW/bCbsQVbdSHBA+6aOww==",
   "success": true,
-  "projectFilePath": "F:\\Fabrica\\Projeto.Clinica\\Clinica.Application\\Clinica.Application.csproj",
+  "projectFilePath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Application\\Clinica.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leonardo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PLZKKf9zYj3HeC/Pq5Z7BfYnnM1Gt2Jk0xBIjzfy8ThyfBMA1xnZQwk3V8sXxq+u1ONzYIGr2CDw8F3YZeozwA==",
+  "dgSpecHash": "dbyNLaNl6ysg6wHUENFXSZX4IWPUrQfAwFXhMaRkvh8QhvYOuTgfRZ+kFmIMtlboN5dzlRyPC5Fx63cRE6VTtg==",
   "success": true,
-  "projectFilePath": "F:\\Fabrica\\Projeto.Clinica\\Adapters.Api\\Adapters.Api.csproj",
+  "projectFilePath": "F:\\Fabrica\\TheOne\\Workspace\\Adapters.Api\\Adapters.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leonardo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+euQVZAwDDQRSE+KVBBu20XVIJ/gOkEOY81u3scOCkrDhnQfwIBX5lNrAmOqUvFFvN8SpL8ckhmNCzLIeDMn1Q==",
+  "dgSpecHash": "QknjbMpUz+qWlZgeRW3EhQowpJgxEy/03uoRKzjwS/WR0M/MHKLSg/HuzfYP4yWsPzz0FAVEcaQ+OfuT3VwIgw==",
   "success": true,
-  "projectFilePath": "F:\\Fabrica\\Projeto.Clinica\\Adapters.SqlServer\\Adapters.SqlServer.csproj",
+  "projectFilePath": "F:\\Fabrica\\TheOne\\Workspace\\Adapters.SqlServer\\Adapters.SqlServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leonardo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

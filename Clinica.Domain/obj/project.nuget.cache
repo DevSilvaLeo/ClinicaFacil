@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aO65SCLGqlnOlZEwNXnij1GhH2g33+6VTOF4dqEpNtmaWTG/Iur4s6BcDkkZlXh4V4mpU5xcrMgzum0y67DPsw==",
+  "dgSpecHash": "GmfDs8pClYCSP0+ddQa/+AsXrx3Tsby4LwimVVc+5eeu6Mi8uA3MMTOsWOL5KiAx0N74wroV+Xyy3NLQ5Lxn5w==",
   "success": true,
-  "projectFilePath": "F:\\Fabrica\\Projeto.Clinica\\Clinica.Domain\\Clinica.Domain.csproj",
+  "projectFilePath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512"

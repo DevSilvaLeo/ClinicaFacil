@@ -6094,11 +6094,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Fabrica\\Projeto.Clinica\\Adapters.SqlServer\\Adapters.SqlServer.csproj",
+      "projectUniqueName": "F:\\Fabrica\\TheOne\\Workspace\\Adapters.SqlServer\\Adapters.SqlServer.csproj",
       "projectName": "Adapters.SqlServer",
-      "projectPath": "F:\\Fabrica\\Projeto.Clinica\\Adapters.SqlServer\\Adapters.SqlServer.csproj",
+      "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Adapters.SqlServer\\Adapters.SqlServer.csproj",
       "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-      "outputPath": "F:\\Fabrica\\Projeto.Clinica\\Adapters.SqlServer\\obj\\",
+      "outputPath": "F:\\Fabrica\\TheOne\\Workspace\\Adapters.SqlServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6115,8 +6115,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "F:\\Fabrica\\Projeto.Clinica\\Clinica.Domain\\Clinica.Domain.csproj": {
-              "projectPath": "F:\\Fabrica\\Projeto.Clinica\\Clinica.Domain\\Clinica.Domain.csproj"
+            "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj": {
+              "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj"
             }
           }
         }

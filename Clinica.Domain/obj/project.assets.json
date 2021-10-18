@@ -82,11 +82,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Fabrica\\Projeto.Clinica\\Clinica.Domain\\Clinica.Domain.csproj",
+      "projectUniqueName": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj",
       "projectName": "Clinica.Domain",
-      "projectPath": "F:\\Fabrica\\Projeto.Clinica\\Clinica.Domain\\Clinica.Domain.csproj",
+      "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj",
       "packagesPath": "C:\\Users\\Leonardo\\.nuget\\packages\\",
-      "outputPath": "F:\\Fabrica\\Projeto.Clinica\\Clinica.Domain\\obj\\",
+      "outputPath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Leonardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
