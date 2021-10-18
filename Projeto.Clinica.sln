@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BA334E6E-A9D9-4C54-B995-060EC6220AA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{CCBED133-6BF1-44CE-B6DA-7CC9E11607AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8213C05A-4F24-4D3A-A979-0BCCA0ECCC04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E415697D-4F85-4985-B7E3-5E4B58C3CEFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clinica.Domain", "Clinica.Domain\Clinica.Domain.csproj", "{BC125BA5-0864-499B-AB9C-B5BAB7AADC1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapters.SqlServer", "Adapters.SqlServer\Adapters.SqlServer.csproj", "{729684F8-C6DB-4181-955A-F341AB52EAC7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clinica.Application", "Clinica.Application\Clinica.Application.csproj", "{C2BF1055-BA00-4088-915F-AD262056D38E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapters.Api", "Adapters.Api\Adapters.Api.csproj", "{741BC72D-1624-4869-A2A6-80EE94C79281}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC125BA5-0864-499B-AB9C-B5BAB7AADC1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC125BA5-0864-499B-AB9C-B5BAB7AADC1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC125BA5-0864-499B-AB9C-B5BAB7AADC1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC125BA5-0864-499B-AB9C-B5BAB7AADC1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729684F8-C6DB-4181-955A-F341AB52EAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729684F8-C6DB-4181-955A-F341AB52EAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729684F8-C6DB-4181-955A-F341AB52EAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729684F8-C6DB-4181-955A-F341AB52EAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2BF1055-BA00-4088-915F-AD262056D38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BF1055-BA00-4088-915F-AD262056D38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BF1055-BA00-4088-915F-AD262056D38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BF1055-BA00-4088-915F-AD262056D38E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{741BC72D-1624-4869-A2A6-80EE94C79281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{741BC72D-1624-4869-A2A6-80EE94C79281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{741BC72D-1624-4869-A2A6-80EE94C79281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{741BC72D-1624-4869-A2A6-80EE94C79281}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8213C05A-4F24-4D3A-A979-0BCCA0ECCC04} = {BA334E6E-A9D9-4C54-B995-060EC6220AA7}
+		{E415697D-4F85-4985-B7E3-5E4B58C3CEFB} = {BA334E6E-A9D9-4C54-B995-060EC6220AA7}
+		{BC125BA5-0864-499B-AB9C-B5BAB7AADC1C} = {E415697D-4F85-4985-B7E3-5E4B58C3CEFB}
+		{729684F8-C6DB-4181-955A-F341AB52EAC7} = {CCBED133-6BF1-44CE-B6DA-7CC9E11607AC}
+		{C2BF1055-BA00-4088-915F-AD262056D38E} = {8213C05A-4F24-4D3A-A979-0BCCA0ECCC04}
+		{741BC72D-1624-4869-A2A6-80EE94C79281} = {CCBED133-6BF1-44CE-B6DA-7CC9E11607AC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20A0C259-09DF-4344-B586-0A9A55E4E7FA}
+	EndGlobalSection
+EndGlobal
