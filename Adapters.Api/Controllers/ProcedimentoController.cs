@@ -1,5 +1,5 @@
-﻿using Clinica.Application.Models;
-using Clinica.Application.Services;
+﻿using Clinica.Application.Interfaces;
+using Clinica.Application.Models.Procedimento;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -13,7 +13,12 @@ namespace Adapters.Api.Controllers
     [ApiController]
     public class ProcedimentoController : ControllerBase
     {
-        private readonly ProcedimentoApplicationService _application;
+        private readonly IProcedimentoApplicationService _application;
+
+        public ProcedimentoController(IProcedimentoApplicationService application)
+        {
+            _application = application;
+        }
 
         [HttpPost]
         public IActionResult Post(ProcedimentoCreateModel model)
@@ -27,6 +32,68 @@ namespace Adapters.Api.Controllers
                 });
             }
             catch(Exception e)
+            {
+                return StatusCode(500, e.Message);
+            }
+        }
+
+        [HttpPut]
+        public IActionResult Update(ProcedimentoUpdateModel model)
+        {
+            try
+            {
+                _application.Update(model);
+                return Ok(new
+                {
+                    Message = "Procedimento atualizado com sucesso"
+                });
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, e.Message);
+            }
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(Guid id)
+        {
+            try
+            {
+                var procedimento = new ProcedimentoDeleteModel { IdProcedimento = id };
+                _application.Delete(procedimento);
+
+                return Ok(new
+                {
+                    Message = "Procedimento removido com sucesso"
+                });
+            }
+            catch(Exception e)
+            {
+                return StatusCode(500, e.Message);
+            }
+        }
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            try
+            {
+                return Ok(_application.GetAll());
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, e.Message);
+            }
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById(Guid id)
+        {
+            try
+            {
+                return Ok(_application.GetById(id));
+            }
+            catch (Exception e)
             {
                 return StatusCode(500, e.Message);
             }

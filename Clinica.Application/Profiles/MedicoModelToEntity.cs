@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Clinica.Application.Models;
+using Clinica.Application.Models.Medico;
 using Clinica.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -17,10 +17,12 @@ namespace Clinica.Application.Profiles
                 .AfterMap((src, dest) =>
                 {
                     dest.Id = Guid.NewGuid();
-                    dest.DataEmissao = Convert.ToDateTime(src.DataEmissao);
-                    dest.DataValidade = Convert.ToDateTime(src.DataValidade);
+                    //dest.DataEmissao = Convert.ToDateTime(src.DataEmissao);
+                    //dest.DataValidade = Convert.ToDateTime(src.DataValidade);
                     dest.IdFuncionario = Guid.Parse(src.IdFuncionario);
                 });
+
+            CreateMap<MedicoUpdateModel, Medico>();
         }
     }
 }

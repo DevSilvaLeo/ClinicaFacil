@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Clinica.Application.Models.Procedimento
 {
-    public class ProcedimentoCreateModel
+    public class ProcedimentoGetModel
     {
+        public Guid? IdProcedimento { get; set; }
         public string NomeProcedimento { get; set; }
-        public string Valor { get; set; }
+        public Decimal Valor { get; set; }
     }
 }

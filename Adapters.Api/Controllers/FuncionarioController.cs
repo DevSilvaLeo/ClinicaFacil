@@ -45,7 +45,7 @@ namespace Adapters.Api.Controllers
                 _application.Update(model);
                 return Ok(new
                 {
-                    Message = "Funcionario atulizado com sucesso"
+                    Message = "Funcionario atualizado com sucesso"
                 });
             }
             catch(Exception e)

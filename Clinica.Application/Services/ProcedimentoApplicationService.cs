@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Clinica.Application.Interfaces;
 using Clinica.Application.Models;
+using Clinica.Application.Models.Procedimento;
 using Clinica.Domain.Entities;
 using Clinica.Domain.Interfaces.Services;
 using System;
@@ -27,6 +28,33 @@ namespace Clinica.Application.Services
         {
             var procedimento =_mapper.Map<Procedimento>(model);
             _domain.Create(procedimento);
+        }
+
+        public void Update(ProcedimentoUpdateModel model)
+        {
+            var procedimento = _mapper.Map<Procedimento>(model);
+            _domain.Update(procedimento);
+        }
+
+        public void Delete(ProcedimentoDeleteModel model)
+        {
+            var procedimento = _domain.GetById(model.IdProcedimento.Value);
+            _domain.Delete(procedimento);
+        }
+
+        public List<ProcedimentoGetModel> GetAll()
+        {
+            return _mapper.Map<List<ProcedimentoGetModel>>(_domain.GetAll());
+        }
+
+        public ProcedimentoGetModel GetById(Guid key)
+        {
+            return _mapper.Map<ProcedimentoGetModel>(_domain.GetById(key));
+        }
+
+        public void Dispose()
+        {
+            _domain.Dispose();
         }
     }
 }

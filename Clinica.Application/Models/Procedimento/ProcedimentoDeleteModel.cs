@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Clinica.Application.Models.Procedimento
 {
-    public class ProcedimentoCreateModel
+    public class ProcedimentoDeleteModel
     {
-        public string NomeProcedimento { get; set; }
-        public string Valor { get; set; }
+        public Guid? IdProcedimento { get; set; }
     }
 }

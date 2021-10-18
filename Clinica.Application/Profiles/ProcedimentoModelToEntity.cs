@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Clinica.Application.Models;
+using Clinica.Application.Models.Procedimento;
 using Clinica.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -17,6 +17,12 @@ namespace Clinica.Application.Profiles
                 .AfterMap((src, dest) =>
                 {
                     dest.IdProcedimento = Guid.NewGuid();
+                    dest.Valor = Convert.ToDecimal(src.Valor);
+                });
+
+            CreateMap<ProcedimentoUpdateModel, Procedimento>()
+                .AfterMap((src, dest) =>
+                {
                     dest.Valor = Convert.ToDecimal(src.Valor);
                 });
         }

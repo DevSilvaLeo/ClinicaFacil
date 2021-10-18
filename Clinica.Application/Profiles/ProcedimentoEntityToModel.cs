@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Clinica.Application.Models.Funcionario;
+using Clinica.Application.Models.Procedimento;
 using Clinica.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace Clinica.Application.Profiles
 {
-    public class FuncionarioEntityToModel : Profile
+    public class ProcedimentoEntityToModel : Profile
     {
-        public FuncionarioEntityToModel()
+        public ProcedimentoEntityToModel()
         {
-            CreateMap<Funcionario, FuncionarioGetModel>();
+            CreateMap<Procedimento, ProcedimentoGetModel>();
         }
     }
 }
