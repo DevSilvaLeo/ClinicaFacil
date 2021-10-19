@@ -11,6 +11,7 @@ namespace Clinica.Application.Profiles
 {
     public class UsuarioModelToEntity : Profile
     {
+
         public UsuarioModelToEntity()
         {
             CreateMap<UsuarioCreateModel, Usuario>()

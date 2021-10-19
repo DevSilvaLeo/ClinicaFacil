@@ -3,6 +3,7 @@ using Clinica.Application.Interfaces;
 using Clinica.Application.Models.Usuario;
 using Clinica.Domain.Entities;
 using Clinica.Domain.Interfaces.Services;
+using Clinica.Util.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,6 @@ namespace Clinica.Application.Services
     {
         private readonly IUsuarioDomainService _domain;
         private readonly IMapper _mapper;
-
 
         public UsuarioApplicationService(IUsuarioDomainService domain, IMapper mapper)
         {

@@ -102,6 +102,16 @@
         "runtime": {
           "bin/placeholder/Clinica.Domain.dll": {}
         }
+      },
+      "Clinica.Util/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Clinica.Util.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clinica.Util.dll": {}
+        }
       }
     }
   },
@@ -336,6 +346,11 @@
       "type": "project",
       "path": "../Clinica.Domain/Clinica.Domain.csproj",
       "msbuildProject": "../Clinica.Domain/Clinica.Domain.csproj"
+    },
+    "Clinica.Util/1.0.0": {
+      "type": "project",
+      "path": "../Clinica.Util/Clinica.Util.csproj",
+      "msbuildProject": "../Clinica.Util/Clinica.Util.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -343,6 +358,7 @@
       "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
       "Clinica.Domain >= 1.0.0",
+      "Clinica.Util >= 1.0.0",
       "Microsoft.Extensions.DependencyInjection >= 5.0.2"
     ]
   },
@@ -375,6 +391,9 @@
           "projectReferences": {
             "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj": {
               "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj"
+            },
+            "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Util\\Clinica.Util.csproj": {
+              "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Util\\Clinica.Util.csproj"
             }
           }
         }

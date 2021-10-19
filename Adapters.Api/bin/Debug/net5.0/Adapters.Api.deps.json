@@ -1449,6 +1449,7 @@
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Clinica.Domain": "1.0.0",
+          "Clinica.Util": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "5.0.2"
         },
         "runtime": {
@@ -1467,6 +1468,14 @@
         },
         "compile": {
           "Clinica.Domain.dll": {}
+        }
+      },
+      "Clinica.Util/1.0.0": {
+        "runtime": {
+          "Clinica.Util.dll": {}
+        },
+        "compile": {
+          "Clinica.Util.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3944,6 +3953,11 @@
       "sha512": ""
     },
     "Clinica.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clinica.Util/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
