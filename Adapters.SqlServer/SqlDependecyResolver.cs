@@ -24,6 +24,7 @@ namespace Adapters.SqlServer
             services.AddTransient<IFuncionarioRepository, FuncionarioRepository>();
             services.AddTransient<IMedicoRepository, MedicoRepository>();
             services.AddTransient<IProcedimentoRepository, ProcedimentoRepository>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
         }
     }
 }

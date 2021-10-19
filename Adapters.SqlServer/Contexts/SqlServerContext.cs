@@ -22,6 +22,7 @@ namespace Adapters.SqlServer.Contexts
         public DbSet<Funcionario> Funcionario { get; set; }
         public DbSet<Medico> Medico { get; set; }
         public DbSet<Procedimento> Procedimento { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelbuilder)
         {
@@ -30,6 +31,7 @@ namespace Adapters.SqlServer.Contexts
             modelbuilder.ApplyConfiguration(new FuncionarioMap());
             modelbuilder.ApplyConfiguration(new MedicoMap());
             modelbuilder.ApplyConfiguration(new ProcedimentoMap());
+            modelbuilder.ApplyConfiguration(new UsuarioMap());
         }
     }
 }

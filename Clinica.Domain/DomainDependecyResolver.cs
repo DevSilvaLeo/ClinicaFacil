@@ -18,6 +18,7 @@ namespace Clinica.Domain
             services.AddTransient<IFuncionarioDomainService, FuncionarioDomainService>();
             services.AddTransient<IMedicoDomainService, MedicoDomainService>();
             services.AddTransient<IProcedimentoDomainService, ProcedimentoDomainService>();
+            services.AddTransient<IUsuarioDomainService, UsuarioDomainService>();
         }
     }
 }
