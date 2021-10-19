@@ -19,6 +19,7 @@ namespace Clinica.Application
             services.AddTransient<IFuncionarioApplicationService, FuncionarioApplicationService>();
             services.AddTransient<IMedicoApplicationService, MedicoApplicationService>();
             services.AddTransient<IProcedimentoApplicationService, ProcedimentoApplicationService>();
+            services.AddTransient<IUsuarioApplicationService, UsuarioApplicationService>();
         }
     }
 }
