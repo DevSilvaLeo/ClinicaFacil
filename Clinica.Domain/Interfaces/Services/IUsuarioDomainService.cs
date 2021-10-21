@@ -9,5 +9,6 @@ namespace Clinica.Domain.Interfaces.Services
 {
     public interface IUsuarioDomainService : IBaseDomainService<Usuario, Guid>
     {
+
     }
 }

@@ -9,5 +9,6 @@ namespace Clinica.Domain.Interfaces.Adapters.Repository
 {
     public interface IUsuarioRepository : IBaseRepository<Usuario,Guid>
     {
+      
     }
 }

@@ -89,7 +89,6 @@ F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Microsoft.IdentityMode
 F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Microsoft.OpenApi.dll
-F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Newtonsoft.Json.dll
 F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -132,5 +131,6 @@ F:\Fabrica\TheOne\Workspace\Adapters.Api\obj\Debug\net5.0\Adapters.Api.dll
 F:\Fabrica\TheOne\Workspace\Adapters.Api\obj\Debug\net5.0\ref\Adapters.Api.dll
 F:\Fabrica\TheOne\Workspace\Adapters.Api\obj\Debug\net5.0\Adapters.Api.pdb
 F:\Fabrica\TheOne\Workspace\Adapters.Api\obj\Debug\net5.0\Adapters.Api.genruntimeconfig.cache
-F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Clinica.Util.dll
-F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Clinica.Util.pdb
+F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Adapters.Authentication.dll
+F:\Fabrica\TheOne\Workspace\Adapters.Api\bin\Debug\net5.0\Adapters.Authentication.pdb

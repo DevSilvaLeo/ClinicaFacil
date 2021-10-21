@@ -14,5 +14,6 @@ namespace Clinica.Application.Interfaces
         void Delete(UsuarioDeleteModel model);
         List<UsuarioGetModel> GetAll();
         UsuarioGetModel GetById(Guid key);
+        UsuarioGetModel GetByLoginSenha(string login, string password);
     }
 }

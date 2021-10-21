@@ -3,7 +3,6 @@ using Clinica.Application.Interfaces;
 using Clinica.Application.Models.Usuario;
 using Clinica.Domain.Entities;
 using Clinica.Domain.Interfaces.Services;
-using Clinica.Util.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,6 +48,11 @@ namespace Clinica.Application.Services
         public UsuarioGetModel GetById(Guid key)
         {
             return _mapper.Map<UsuarioGetModel>(_domain.GetById(key));
+        }
+
+        public UsuarioGetModel GetByLoginSenha(string login, string password)
+        {
+            throw new NotImplementedException();
         }
 
         public void Dispose()

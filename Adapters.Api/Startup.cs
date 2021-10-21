@@ -31,6 +31,7 @@ namespace Adapters.Api
             Adapters.SqlServer.SqlDependecyResolver.AddSqlServerConfiguration(services, Configuration);
             Clinica.Domain.DomainDependecyResolver.AddDomainConfiguration(services);
             Clinica.Application.ApplicationDependencyResolver.AddApplicationConfiguration(services);
+            Adapters.Authentication.AuthenticationDependencyResolver.AddJwtSetup(services, Configuration);
 
             #endregion
             services.AddControllers();
@@ -47,7 +48,7 @@ namespace Adapters.Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseAuthentication();
             app.UseAuthorization();
 
             #region Dependências

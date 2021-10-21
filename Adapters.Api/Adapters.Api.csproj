@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Adapters.Authentication\Adapters.Authentication.csproj" />
     <ProjectReference Include="..\Adapters.SqlServer\Adapters.SqlServer.csproj" />
     <ProjectReference Include="..\Clinica.Application\Clinica.Application.csproj" />
     <ProjectReference Include="..\Clinica.Domain\Clinica.Domain.csproj" />

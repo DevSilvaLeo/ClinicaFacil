@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Clinica.Application.Models.Usuario
-{
+{    
     public class UsuarioCreateModel
     {
         public string Login { get; set; }

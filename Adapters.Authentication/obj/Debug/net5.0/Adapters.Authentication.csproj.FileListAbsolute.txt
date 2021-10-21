@@ -1,0 +1,15 @@
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\bin\Debug\net5.0\Adapters.Authentication.deps.json
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\bin\Debug\net5.0\Adapters.Authentication.dll
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\bin\Debug\net5.0\ref\Adapters.Authentication.dll
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\bin\Debug\net5.0\Adapters.Authentication.pdb
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\bin\Debug\net5.0\Clinica.Domain.dll
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\bin\Debug\net5.0\Clinica.Domain.pdb
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Authentication.csproj.AssemblyReference.cache
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Authentication.GeneratedMSBuildEditorConfig.editorconfig
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Authentication.AssemblyInfoInputs.cache
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Authentication.AssemblyInfo.cs
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Authentication.csproj.CoreCompileInputs.cache
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Authentication.csproj.CopyComplete
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Authentication.dll
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\ref\Adapters.Authentication.dll
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Authentication.pdb

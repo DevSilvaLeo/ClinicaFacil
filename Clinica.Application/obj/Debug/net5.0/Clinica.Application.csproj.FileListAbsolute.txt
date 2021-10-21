@@ -28,5 +28,3 @@ F:\Fabrica\TheOne\Workspace\Clinica.Application\obj\Debug\net5.0\Clinica.Applica
 F:\Fabrica\TheOne\Workspace\Clinica.Application\obj\Debug\net5.0\Clinica.Application.dll
 F:\Fabrica\TheOne\Workspace\Clinica.Application\obj\Debug\net5.0\ref\Clinica.Application.dll
 F:\Fabrica\TheOne\Workspace\Clinica.Application\obj\Debug\net5.0\Clinica.Application.pdb
-F:\Fabrica\TheOne\Workspace\Clinica.Application\bin\Debug\net5.0\Clinica.Util.dll
-F:\Fabrica\TheOne\Workspace\Clinica.Application\bin\Debug\net5.0\Clinica.Util.pdb

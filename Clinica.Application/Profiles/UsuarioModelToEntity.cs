@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Clinica.Application.Models.Usuario;
+using Clinica.Application.Security.Cripto;
 using Clinica.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -14,10 +15,13 @@ namespace Clinica.Application.Profiles
 
         public UsuarioModelToEntity()
         {
+            var cripto = new CriptoService();
+
             CreateMap<UsuarioCreateModel, Usuario>()
                 .AfterMap((src, dest) =>
                 {
                     dest.Id = Guid.NewGuid();
+                    dest.Senha = cripto.Ecrypt(src.Senha);
                 });
 
             CreateMap<UsuarioUpdateModel, Usuario>();
