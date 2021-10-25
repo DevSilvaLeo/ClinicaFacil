@@ -104,8 +104,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj": {
-                "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Domain\\Clinica.Domain.csproj"
+              "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Application\\Clinica.Application.csproj": {
+                "projectPath": "F:\\Fabrica\\TheOne\\Workspace\\Clinica.Application\\Clinica.Application.csproj"
               }
             }
           }

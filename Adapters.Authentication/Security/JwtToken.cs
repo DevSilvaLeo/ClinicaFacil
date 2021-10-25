@@ -1,4 +1,4 @@
-﻿using Clinica.Domain.Entities;
+﻿using Clinica.Application.Models.Usuario;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -19,7 +19,7 @@ namespace Adapters.Authentication.Security
             _jwtSettings = jwtSettings;
         }
 
-        public string GenerateToken(Usuario user)
+        public string GenerateToken(UsuarioGetModel model)
         {
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_jwtSettings.SecretKey);
@@ -28,11 +28,11 @@ namespace Adapters.Authentication.Security
             {
                 Subject = new ClaimsIdentity(new Claim[]
                 {
-                    new Claim(ClaimTypes.Name, user.Apelido),
-                    new Claim(ClaimTypes.Email, user.Login),
-                    new Claim(ClaimTypes.Role, user.Permissao)
+                    new Claim(ClaimTypes.Name, model.Apelido),
+                    new Claim(ClaimTypes.Email, model.Login),
+                    new Claim(ClaimTypes.Role, model.Permissao)
                 }),
-                Expires = DateTime.Now.AddHours(1),
+                Expires = DateTime.Now.AddHours(24),
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),
                                                 SecurityAlgorithms.HmacSha256Signature)
             };

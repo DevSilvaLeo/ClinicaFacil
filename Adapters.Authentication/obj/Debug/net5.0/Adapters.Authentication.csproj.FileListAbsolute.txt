@@ -13,3 +13,5 @@ F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Au
 F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Authentication.dll
 F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\ref\Adapters.Authentication.dll
 F:\Fabrica\TheOne\Workspace\Adapters.Authentication\obj\Debug\net5.0\Adapters.Authentication.pdb
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\bin\Debug\net5.0\Clinica.Application.dll
+F:\Fabrica\TheOne\Workspace\Adapters.Authentication\bin\Debug\net5.0\Clinica.Application.pdb

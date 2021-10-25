@@ -41,7 +41,6 @@ namespace Adapters.Authentication
                 });
 
             services.AddTransient(map => new JwtToken(appSettings));
-
         }
     }
 }

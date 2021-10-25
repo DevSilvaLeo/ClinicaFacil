@@ -9,6 +9,7 @@ namespace Clinica.Domain.Interfaces.Services
 {
     public interface IUsuarioDomainService : IBaseDomainService<Usuario, Guid>
     {
-
+        Usuario GetByEmailSenha(string email, string senha);
+        Usuario EmailIsUnique(string email);
     }
 }

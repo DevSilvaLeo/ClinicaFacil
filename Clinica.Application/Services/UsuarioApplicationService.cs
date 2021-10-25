@@ -49,15 +49,19 @@ namespace Clinica.Application.Services
         {
             return _mapper.Map<UsuarioGetModel>(_domain.GetById(key));
         }
-
-        public UsuarioGetModel GetByLoginSenha(string login, string password)
+        public UsuarioGetModel EmailIsUnique(string key)
         {
-            throw new NotImplementedException();
+            return _mapper.Map<UsuarioGetModel>(_domain.EmailIsUnique(key));
+        }
+        public UsuarioGetModel GetByLoginSenha(string key, string password)
+        {
+            return _mapper.Map<UsuarioGetModel>(_domain.GetByEmailSenha(key, password));
         }
 
         public void Dispose()
         {
             _domain.Dispose();
         }
+
     }
 }

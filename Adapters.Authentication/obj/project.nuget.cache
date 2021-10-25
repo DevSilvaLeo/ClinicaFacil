@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "fzor4Pr2XdiWRRxs2jPhMx+hTkTeuXxD2ao6WT+YlFNiOi6bSyVAYsUo8beOSUIGjKEbiKSpV2pb/sYvYYwciQ==",
+  "dgSpecHash": "LdnGyBGsGPogvHpmgxd3EoA3vti41U/f4V/fek9otnvLP/p1edh5SqY3qJCygMNiApAgSdiCkEHe94ZHd9ukug==",
   "success": true,
   "projectFilePath": "F:\\Fabrica\\TheOne\\Workspace\\Adapters.Authentication\\Adapters.Authentication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Leonardo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.11\\microsoft.aspnetcore.authentication.jwtbearer.5.0.11.nupkg.sha512",
-    "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.13.1\\microsoft.identitymodel.jsonwebtokens.6.13.1.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.identitymodel.logging\\6.13.1\\microsoft.identitymodel.logging.6.13.1.nupkg.sha512",
@@ -17,6 +20,7 @@
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.13.1\\microsoft.identitymodel.tokens.6.13.1.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.13.1\\system.identitymodel.tokens.jwt.6.13.1.nupkg.sha512",
+    "C:\\Users\\Leonardo\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Leonardo\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []

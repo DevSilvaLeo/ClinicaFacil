@@ -18,5 +18,18 @@ namespace Adapters.SqlServer.Repositories
         {
             _context = context;
         }
+
+        public Usuario EmailIsUnique(string email)
+        {
+            return _context.Set<Usuario>().Where(u => u.Login == email).FirstOrDefault();
+        }
+
+        public Usuario GetByEmailSenha(string email, string senha)
+        {
+            return _context.Set<Usuario>()
+                .Where(u => u.Login == email)
+                .Where(u => u.Senha == senha)
+                .FirstOrDefault();
+        }
     }
 }

@@ -18,5 +18,15 @@ namespace Clinica.Domain.Services
         {
             _repository = repository;
         }
+
+        public Usuario EmailIsUnique(string email)
+        {
+            return _repository.EmailIsUnique(email);
+        }
+
+        public Usuario GetByEmailSenha(string email, string senha)
+        {
+            return _repository.GetByEmailSenha(email, senha);
+        }
     }
 }

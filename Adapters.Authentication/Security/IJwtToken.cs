@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MD5Cryptography.Interfaces
+namespace Adapters.Authentication.Security
 {
-    public interface IMD5Criptography
+    public interface IJwtToken
     {
-        string Ecrypt(string value);
+       
     }
 }
